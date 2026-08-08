@@ -2,6 +2,15 @@
 
 Electra is a full-stack MERN e-commerce web application developed for managing and selling electronic products online. The system provides a complete customer shopping experience together with an administration dashboard for managing products, users, orders, stock, customer messages, and revenue analytics.
 
+## 🔗 Project Repositories
+
+### Frontend
+[Electra Frontend Repository](https://github.com/Kithsara-01/electra-ecommerce-mern-frontend)
+
+### Backend
+[Electra Backend Repository](https://github.com/Kithsara-01/electra-ecommerce-mern-backend)
+
+
 ## 🚀 Project Overview
 
 The application is built using the MERN stack and follows a separated frontend/backend architecture.
