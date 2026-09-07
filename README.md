@@ -26,7 +26,7 @@ Electra is a full-stack MERN e-commerce web application developed for managing a
 
 ## 🖥️ UI Showcase
 
-The following screenshots demonstrate the main customer and admin interfaces of the Electra e-commerce system.
+The following UI screens demonstrate the main customer and admin interfaces of the Electra e-commerce system.
 
 ### Customer Interface
 
@@ -36,7 +36,7 @@ The following screenshots demonstrate the main customer and admin interfaces of 
 
 | Customer Product Page | Order History |
 |---|---|
-| ![Customer Product](UI/customer -product.png) | ![Order History](UI/order-history.png) |
+| ![Customer Product](UI/customer%20-product.png) | ![Order History](UI/order-history.png) |
 
 ### Admin Interface
 
@@ -47,7 +47,6 @@ The following screenshots demonstrate the main customer and admin interfaces of 
 | AI Product Assistance | Customer Care |
 |---|---|
 | ![AI Product Assistance](UI/ai-product.png) | ![Admin Customer Care](UI/admin-customercare.png) |
-
 
 
 ## 🏗️ System Architecture
