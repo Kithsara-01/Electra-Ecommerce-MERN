@@ -46,6 +46,8 @@ flowchart TD
     B --> L[Recharts]
     B --> M[jsPDF]
 
+```
+
 
 ## 🚀 Project Overview
 
