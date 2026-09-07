@@ -32,21 +32,21 @@ The following screenshots demonstrate the main customer and admin interfaces of 
 
 | Home Page | Product Details |
 |---|---|
-| ![Customer Home](UI/customer-home.png) | ![Product Details](screenshots/product-details.png) |
+| ![Customer Home](UI/customer-home.png) | ![Product Details](UI/product-details.png) |
 
 | Customer Product Page | Order History |
 |---|---|
-| ![Customer Product](UI/customer-product.png) | ![Order History](screenshots/order-history.png) |
+| ![Customer Product](UI/customer-product.png) | ![Order History](UI/order-history.png) |
 
 ### Admin Interface
 
 | Admin Dashboard | Product Management |
 |---|---|
-| ![Admin Dashboard](UI/admin-dashboard.png) | ![Admin Products](screenshots/admin-products.png) |
+| ![Admin Dashboard](UI/admin-dashboard.png) | ![Admin Products](UI/admin-products.png) |
 
 | AI Product Assistance | Customer Care |
 |---|---|
-| ![AI Product Assistance](UI/ai-product.png) | ![Admin Customer Care](screenshots/admin-customercare.png) |
+| ![AI Product Assistance](UI/ai-product.png) | ![Admin Customer Care](UI/admin-customercare.png) |
 
 
 
