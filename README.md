@@ -311,6 +311,113 @@ The backend is organized into separate API modules for maintainability.
 - Contact/Customer Care
 - Dashboard & Revenue Analytics
 
+## 🔌 API Documentation
+
+Electra provides RESTful APIs for authentication, users, products, cart, wishlist, orders, reviews, customer care, dashboard analytics, and payments.
+
+### Authentication APIs
+
+| Method | Endpoint | Access |
+|---|---|---|
+| POST | `/api/auth/register/customer` | Public |
+| POST | `/api/auth/login` | Public |
+| POST | `/api/auth/logout` | Authenticated |
+
+### User APIs
+
+| Method | Endpoint | Access |
+|---|---|---|
+| GET | `/api/users/profile` | Authenticated |
+| PUT | `/api/users/profile` | Authenticated |
+| PUT | `/api/users/change-password` | Authenticated |
+| GET | `/api/users` | Admin |
+| GET | `/api/users/:id` | Admin |
+| PUT | `/api/users/:id/block` | Admin |
+| PUT | `/api/users/:id/unblock` | Admin |
+
+### Product APIs
+
+| Method | Endpoint | Access |
+|---|---|---|
+| GET | `/api/products` | Public |
+| GET | `/api/products/search/:query` | Public |
+| GET | `/api/products/:productId` | Public |
+| GET | `/api/products/admin` | Admin |
+| POST | `/api/products` | Admin |
+| POST | `/api/products/ai-description` | Admin |
+| POST | `/api/products/ai-alternative-names` | Admin |
+| PUT | `/api/products/:productId` | Admin |
+| PATCH | `/api/products/:productId/stock` | Admin |
+| DELETE | `/api/products/:productId` | Admin |
+
+### Cart APIs
+
+| Method | Endpoint | Access |
+|---|---|---|
+| POST | `/api/cart/add` | Authenticated |
+| GET | `/api/cart` | Authenticated |
+| PUT | `/api/cart/update` | Authenticated |
+| DELETE | `/api/cart/remove` | Authenticated |
+| DELETE | `/api/cart/clear` | Authenticated |
+
+### Wishlist APIs
+
+| Method | Endpoint | Access |
+|---|---|---|
+| GET | `/api/wishlist` | Authenticated |
+| GET | `/api/wishlist/check/:productId` | Authenticated |
+| POST | `/api/wishlist/:productId` | Authenticated |
+| DELETE | `/api/wishlist/:productId` | Authenticated |
+
+### Order APIs
+
+| Method | Endpoint | Access |
+|---|---|---|
+| POST | `/api/orders` | Authenticated |
+| GET | `/api/orders/my-orders` | Authenticated |
+| GET | `/api/orders/:orderId` | Authenticated |
+| PUT | `/api/orders/:orderId/cancel` | Authenticated |
+| GET | `/api/orders` | Admin |
+| PUT | `/api/orders/:orderId` | Admin |
+
+### Review APIs
+
+| Method | Endpoint | Access |
+|---|---|---|
+| GET | `/api/reviews/product/:productId` | Public |
+| POST | `/api/reviews` | Authenticated |
+| PUT | `/api/reviews/:id` | Authenticated |
+| DELETE | `/api/reviews/:id` | Authenticated |
+
+### Customer Care APIs
+
+| Method | Endpoint | Access |
+|---|---|---|
+| POST | `/api/contact` | Public |
+| GET | `/api/contact/my-messages` | Customer |
+| GET | `/api/contact/my-messages/:id` | Customer |
+| GET | `/api/contact/unread-replies-count` | Customer |
+| GET | `/api/contact/unread-count` | Admin |
+| GET | `/api/contact` | Admin |
+| GET | `/api/contact/:id` | Admin |
+| PUT | `/api/contact/:id/read` | Admin |
+| PUT | `/api/contact/:id/reply` | Authenticated |
+| DELETE | `/api/contact/:id` | Admin |
+
+### Dashboard & Analytics APIs
+
+| Method | Endpoint | Access |
+|---|---|---|
+| GET | `/api/dashboard/stats` | Admin |
+| GET | `/api/dashboard/revenue` | Admin |
+| GET | `/api/dashboard/notifications` | Admin |
+
+### Payment APIs
+
+| Method | Endpoint | Access |
+|---|---|---|
+| POST | `/api/payments/init` | Public |
+
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the project
