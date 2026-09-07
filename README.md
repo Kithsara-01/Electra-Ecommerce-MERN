@@ -1,4 +1,4 @@
-# Electra – Online Electronic Items Management System
+<img width="1327" height="505" alt="image" src="https://github.com/user-attachments/assets/db826ebf-87d2-4554-97e4-c61c5be85c9c" /># Electra – Online Electronic Items Management System
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
@@ -13,6 +13,16 @@
 Electra is a full-stack MERN e-commerce web application developed for managing and selling electronic products online. The system provides a complete customer shopping experience together with an administration dashboard for managing products, users, orders, stock, customer messages, and revenue analytics.
 
 ## 🔗 Project Repositories
+
+
+
+### Frontend
+[Electra Frontend Repository](https://github.com/Kithsara-01/electra-ecommerce-mern-frontend)
+
+### Backend
+[Electra Backend Repository](https://github.com/Kithsara-01/electra-ecommerce-mern-backend)
+
+
 
 ## 🖥️ UI Showcase
 
@@ -37,13 +47,6 @@ The following screenshots demonstrate the main customer and admin interfaces of 
 | AI Product Assistance | Customer Care |
 |---|---|
 | ![AI Product Assistance](screenshots/ai-product.png) | ![Admin Customer Care](screenshots/admin-customercare.png) |
-
-### Frontend
-[Electra Frontend Repository](https://github.com/Kithsara-01/electra-ecommerce-mern-frontend)
-
-### Backend
-[Electra Backend Repository](https://github.com/Kithsara-01/electra-ecommerce-mern-backend)
-
 
 ## 🏗️ System Architecture
 
