@@ -21,6 +21,32 @@ Electra is a full-stack MERN e-commerce web application developed for managing a
 [Electra Backend Repository](https://github.com/Kithsara-01/electra-ecommerce-mern-backend)
 
 
+## 🏗️ System Architecture
+
+Electra follows a separated frontend and backend architecture where the React frontend communicates with the Node.js/Express backend through REST APIs.
+
+```mermaid
+flowchart TD
+    A[Customer / Admin] --> B[React Frontend]
+    
+    B --> C[Axios API Requests]
+    
+    C --> D[Node.js + Express Backend]
+    
+    D --> E[JWT Authentication]
+    D --> F[REST API Controllers]
+    D --> G[Business Logic / Services]
+    
+    G --> H[(MongoDB)]
+    
+    D --> I[Supabase Storage]
+    D --> J[Google Gemini API]
+    D --> K[PayHere Sandbox]
+    
+    B --> L[Recharts]
+    B --> M[jsPDF]
+
+
 ## 🚀 Project Overview
 
 The application is built using the MERN stack and follows a separated frontend/backend architecture.
