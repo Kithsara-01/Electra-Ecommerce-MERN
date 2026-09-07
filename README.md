@@ -14,6 +14,30 @@ Electra is a full-stack MERN e-commerce web application developed for managing a
 
 ## 🔗 Project Repositories
 
+## 🖥️ UI Showcase
+
+The following screenshots demonstrate the main customer and admin interfaces of the Electra e-commerce system.
+
+### Customer Interface
+
+| Home Page | Product Details |
+|---|---|
+| ![Customer Home](screenshots/customer-home.png) | ![Product Details](screenshots/product-details.png) |
+
+| Customer Product Page | Order History |
+|---|---|
+| ![Customer Product](screenshots/customer-product.png) | ![Order History](screenshots/order-history.png) |
+
+### Admin Interface
+
+| Admin Dashboard | Product Management |
+|---|---|
+| ![Admin Dashboard](screenshots/admin-dashboard.png) | ![Admin Products](screenshots/admin-products.png) |
+
+| AI Product Assistance | Customer Care |
+|---|---|
+| ![AI Product Assistance](screenshots/ai-product.png) | ![Admin Customer Care](screenshots/admin-customercare.png) |
+
 ### Frontend
 [Electra Frontend Repository](https://github.com/Kithsara-01/electra-ecommerce-mern-frontend)
 
