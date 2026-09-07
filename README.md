@@ -36,7 +36,7 @@ The following screenshots demonstrate the main customer and admin interfaces of 
 
 | Customer Product Page | Order History |
 |---|---|
-| ![Customer Product](UI/customer-product.png) | ![Order History](UI/order-history.png) |
+| ![Customer Product](UI/customer -product.png) | ![Order History](UI/order-history.png) |
 
 ### Admin Interface
 
