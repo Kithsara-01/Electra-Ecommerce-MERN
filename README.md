@@ -67,6 +67,110 @@ The application is built using the MERN stack and follows a separated frontend/b
 - **Payment Gateway:** PayHere Sandbox
 - **PDF Generation:** jsPDF
 
+## 🗄️ Database Design
+
+Electra uses MongoDB with Mongoose for database management. The main collections are designed to support users, products, shopping activities, orders, reviews, and customer support.
+
+```mermaid
+erDiagram
+
+    USER ||--o| CART : has
+    USER ||--o{ WISHLIST : creates
+    USER ||--o{ ORDER : places
+    USER ||--o{ REVIEW : writes
+
+    PRODUCT ||--o{ WISHLIST : added_to
+    PRODUCT ||--o{ REVIEW : receives
+    PRODUCT ||--o{ CART_ITEM : contains
+    PRODUCT ||--o{ ORDER_ITEM : contains
+
+    USER {
+        ObjectId _id
+        string name
+        string email
+        string password
+        string phone
+        string address
+        string profileImage
+        string role
+        boolean isBlocked
+    }
+
+    PRODUCT {
+        ObjectId _id
+        string productId
+        string name
+        string[] altNames
+        string description
+        number price
+        number labelledPrice
+        string[] images
+        boolean isAvailable
+        string category
+        number stock
+        number averageRating
+        number totalReviews
+        string brand
+        string model
+    }
+
+    CART {
+        ObjectId _id
+        ObjectId userId
+        array items
+    }
+
+    WISHLIST {
+        ObjectId _id
+        ObjectId user
+        ObjectId product
+    }
+
+    ORDER {
+        ObjectId _id
+        ObjectId userId
+        string orderCode
+        array items
+        number subtotal
+        number deliveryFee
+        number discount
+        number grandTotal
+        string paymentMethod
+        string paymentStatus
+        string transactionId
+        string orderStatus
+    }
+
+    REVIEW {
+        ObjectId _id
+        ObjectId product
+        ObjectId customer
+        number rating
+        string comment
+    }
+
+    CONTACTMESSAGE {
+        ObjectId _id
+        string fullName
+        string email
+        string subject
+        string message
+        array replies
+        boolean isRead
+        boolean hasUnreadAdminReply
+    }
+```
+
+### Main Collections
+
+- **User** – Stores customer and admin account information.
+- **Product** – Stores electronic product details, pricing, images, availability, stock, and ratings.
+- **Cart** – Stores products and quantities associated with a customer.
+- **Wishlist** – Stores products saved by customers.
+- **Order** – Stores customer orders, delivery information, order items, payment details, and order status.
+- **Review** – Stores customer ratings and reviews for products.
+- **ContactMessage** – Stores customer care messages and admin replies.
+
 ## ✨ Main Features
 
 ### 👤 Customer Features
