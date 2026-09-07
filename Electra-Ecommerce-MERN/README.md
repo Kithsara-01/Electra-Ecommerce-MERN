@@ -1,4 +1,3 @@
-<img width="1327" height="505" alt="image" src="https://github.com/user-attachments/assets/db826ebf-87d2-4554-97e4-c61c5be85c9c" /># Electra – Online Electronic Items Management System
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
