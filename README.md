@@ -12,6 +12,7 @@
 
 Electra is a full-stack MERN e-commerce web application developed for managing and selling electronic products online. The system provides a complete customer shopping experience together with an administration dashboard for managing products, users, orders, stock, customer messages, and revenue analytics.
 
+
 ## 🔗 Project Repositories
 
 
@@ -22,6 +23,46 @@ Electra is a full-stack MERN e-commerce web application developed for managing a
 ### Backend
 [Electra Backend Repository](https://github.com/Kithsara-01/electra-ecommerce-mern-backend)
 
+
+## 🌐 Live Demo
+
+Electra is deployed as a full-stack web application with a separately hosted frontend and backend.
+
+### Frontend Deployment
+
+The React frontend is deployed on Vercel and provides the customer-facing e-commerce interface and administration dashboard.
+
+**Platform:** Vercel  
+**Environment:** Production  
+**Live Application:**  
+[Visit Electra Live Website](https://electra-ecommerce-mern-frontend.vercel.app/)
+
+### Backend Deployment
+
+The Node.js and Express.js backend is deployed on Render and provides the REST APIs, authentication, business logic, and database communication.
+
+**Platform:** Render  
+**Environment:** Production  
+**Backend API:**  
+[Electra Backend API](https://electra-ecommerce-mern-backend.onrender.com)
+
+> **Note:** The PayHere integration is configured in Sandbox mode for testing and demonstration purposes.
+
+## 🔗 Project Repositories
+
+The project follows a separated frontend and backend architecture, with both parts maintained in dedicated GitHub repositories.
+
+### 🎨 Frontend
+
+The frontend is developed using React, Vite, and Tailwind CSS and includes the customer shopping interface and admin dashboard.
+
+[View Electra Frontend Repository](https://github.com/Kithsara-01/electra-ecommerce-mern-frontend)
+
+### ⚙️ Backend
+
+The backend is developed using Node.js and Express.js and provides REST APIs, authentication, business logic, and database communication.
+
+[View Electra Backend Repository](https://github.com/Kithsara-01/electra-ecommerce-mern-backend)
 
 
 ## 🖥️ UI Showcase
