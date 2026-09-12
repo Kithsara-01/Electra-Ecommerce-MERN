@@ -26,8 +26,7 @@ Electra is a full-stack MERN e-commerce web application developed for managing a
 ## 🌐 Live Demo 
 
 Electra is deployed as a full-stack web application with a separately hosted frontend and backend.
-**Live Application:**  
-[Visit Electra Live Website](https://electra-ecommerce-mern-frontend.vercel.app/)
+**Live Application:** - [Visit Electra Live Website](https://electra-ecommerce-mern-frontend.vercel.app/)
 
 ### Frontend Deployment
 
