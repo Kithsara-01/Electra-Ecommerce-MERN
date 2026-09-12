@@ -16,7 +16,6 @@ Electra is a full-stack MERN e-commerce web application developed for managing a
 ## 🔗 Project Repositories
 
 
-
 ### Frontend
 [Electra Frontend Repository](https://github.com/Kithsara-01/electra-ecommerce-mern-frontend)
 
@@ -46,23 +45,6 @@ The Node.js and Express.js backend is deployed on Render and provides the REST A
 **Backend API:**  
 [Electra Backend API](https://electra-ecommerce-mern-backend.onrender.com)
 
-> **Note:** The PayHere integration is configured in Sandbox mode for testing and demonstration purposes.
-
-## 🔗 Project Repositories
-
-The project follows a separated frontend and backend architecture, with both parts maintained in dedicated GitHub repositories.
-
-### 🎨 Frontend
-
-The frontend is developed using React, Vite, and Tailwind CSS and includes the customer shopping interface and admin dashboard.
-
-[View Electra Frontend Repository](https://github.com/Kithsara-01/electra-ecommerce-mern-frontend)
-
-### ⚙️ Backend
-
-The backend is developed using Node.js and Express.js and provides REST APIs, authentication, business logic, and database communication.
-
-[View Electra Backend Repository](https://github.com/Kithsara-01/electra-ecommerce-mern-backend)
 
 
 ## 🖥️ UI Showcase
